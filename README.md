@@ -1,12 +1,9 @@
-Dev Challenge
+# Scrimba Weekly Web Dev Challenge - Create netflix film card clone
+* See details [here] on Scrimba(https://scrimba.com/learn/weeklychallenge/the-weekly-web-dev-challenge-netflix-card-clone-latest-challenge-ceaNp4uL)
+* Published Version: https://thetechjournal.github.io/netflix-card-clone/
 
-Netflix Clone
-https://www.cssscript.com/demo/netflix-infinite-carousel/
-https://www.cssscript.com/netflix-infinite-carousel/
-https://www.frontendfun.com/free/netflix-netflix-homepage-clone-simple-html-css
+## Original Design
+![Original Image](./images/netflix-card-orig.jpg)
 
-https://gourav.io/clone-wars
-
-
-![Netflix Card](netflix-card.jpg)
-
+## Design by Me
+![My Design](./images/netflix-film-card-design.jpg)
