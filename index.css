@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('./images/darkness.png');
+}
+
+.card {
+    position: relative;
+    overflow:hidden;
+    width: 500px;
+    background-color: #181818;
+    border: 1px solid gray;
+    border-radius: 80px;
+    -webkit-box-shadow: 0px 10px 13px -7px #d3bfbf, -8px 5px 8px -4px rgba(0, 1, 1, 0); 
+    box-shadow: 0px 10px 13px -7px #d3bfbf, 8px 5px 8px -4px rgba(0,0,0,0);
+}
+
+#card-overlay{
+    display: none;
+    color: white;
+    background-color: #181818;
+    position: absolute;
+    width: 500px;
+    bottom: 0;
+    left: 0;
+    padding: 2em;
+    opacity: 0.98;
+}
+
+.overlay-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture img {
+width: 100%;
+object-fit: cover;
+}
+
+.btn {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    padding: 1.9em;
+    border: 3px solid rgb(171, 166, 166);
+    border-radius: 50px;
+    background-color: #232323;
+    margin-right: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-play {
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 2px;
+}
+
+.btn-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2em;
+
+}
+
+.btn-panel-set-1 { 
+    display: flex;
+}
+
+.thumb-selected {
+    background-color: #413e3e;
+}
+
+.info {
+    background-color: #181818;
+    margin: 2em 1.5em;
+}
+
+.info-panel-1 {
+    padding-bottom: 2em;
+
+}
+
+.info-panel-2 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.search-match {
+    color: #3FC562;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.rating {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.2em 0.5em 0.2em 0.3em;
+    background-color: #DC090A;
+    letter-spacing: -2px;
+    margin-left: 0.5em;
+}
+
+.time {
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 0.5em;
+}
+
+.circle {
+    font-size: 0.3rem;
+    padding: 0 1em;
+}
+
+
+
+
+
+
+
+
+
